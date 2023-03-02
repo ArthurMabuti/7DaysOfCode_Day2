@@ -1,0 +1,14 @@
+label {
+    display: block;
+    margin: 0 0 5px;
+}
+
+input {
+    display: block;
+    margin: 0 0 1em;
+    width: 15%;
+}
+
+.botao:hover {
+    cursor: pointer;
+}
