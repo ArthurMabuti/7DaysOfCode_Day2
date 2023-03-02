@@ -4,7 +4,7 @@ const linguagem = document.querySelector('#linguagem');
 const botao = document.querySelector('.botao');
 
 botao.onclick = function(){
-    alert(`Olá ${nome.value}, você tem ${idade.value} anos e já está aprendendo ${linguagem.value}!`);
+    alert(`Olá ${nome.value}, você tem ${idade.value} e já está aprendendo ${linguagem.value}!`);
     let resposta = prompt(`Você gosta de estudar ${linguagem.value}? Responda com o número 1 para SIM ou 2 para NÃO.`);
 
     if(resposta == 1){
