@@ -9,6 +9,10 @@ input {
     width: 15%;
 }
 
+.botao {
+    width: 15%;
+}
+
 .botao:hover {
     cursor: pointer;
 }
